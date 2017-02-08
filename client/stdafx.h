@@ -10,6 +10,8 @@
 #include <stdio.h>
 #include <tchar.h>
 #include <asio.hpp>
-
-
+#include <thread>
+#include <iostream>
+#include <mutex>
+#include <string>
 // TODO:  在此处引用程序需要的其他头文件
