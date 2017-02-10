@@ -36,6 +36,18 @@
     <ClInclude Include="SockImpl.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="ClientWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IBaseNetWork.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientNetWork.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientNetWorkDriver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -54,6 +66,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="SockImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientNetWorkDriver.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

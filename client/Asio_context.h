@@ -12,11 +12,11 @@ public:
 
 	void Stop() {
 		io_service_->stop();
+		thread_.join();
 	}
 
-protected:
-
 	std::shared_ptr<asio::io_service> io_service_;
+protected:
 	std::shared_ptr<asio::io_service::work> work_;
 	std::thread   thread_;
 };

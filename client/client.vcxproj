@@ -22,7 +22,7 @@
     <ProjectGuid>{124BD181-0755-44E5-AC04-E0159FF913FC}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>client</RootNamespace>
-    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -151,7 +151,11 @@
   <ItemGroup>
     <ClInclude Include="AgentMaster.h" />
     <ClInclude Include="Asio_context.h" />
+    <ClInclude Include="ClientNetWorkDriver.h" />
+    <ClInclude Include="ClientWindow.h" />
     <ClInclude Include="Config.h" />
+    <ClInclude Include="IBaseNetWork.h" />
+    <ClInclude Include="IClientNetWork.h" />
     <ClInclude Include="SockImpl.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -160,6 +164,8 @@
     <ClCompile Include="AgentMaster.cpp" />
     <ClCompile Include="Asio_context.cpp" />
     <ClCompile Include="client.cpp" />
+    <ClCompile Include="ClientNetWorkDriver.cpp" />
+    <ClCompile Include="ClientWindow.cpp" />
     <ClCompile Include="Config.cpp" />
     <ClCompile Include="SockImpl.cpp" />
     <ClCompile Include="stdafx.cpp">

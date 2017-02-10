@@ -9,6 +9,6 @@ public:
 public:
 
 	std::string ip_ = "120.25.77.37";
-	int			port_ = 9196;
+	int			port_ = 9197;
 };
 
